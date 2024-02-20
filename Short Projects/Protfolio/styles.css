@@ -1,0 +1,65 @@
+/* General Styles */
+/* Implement styles for body, headers, etc., similar to the previous example */
+
+/* Header Styles */
+header {
+    background-color: #92bce4;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: flex;
+
+    background-color: yellowgreen;
+    
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    margin-top: 100px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: #292827;
+    margin-bottom: 20px;
+  }
+  
+  /* Portfolio Section Styles */
+  .portfolio {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  .project p {
+    color: #777;
+  }
+  
+  /* Contact Section Styles */
+  .contact {
+    text-align: center;
+    padding: 50px 0;
+  }
+  

@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    background-color: rgb(219, 210, 77);
+    color: darkolivegreen;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.container{
+    background-color: rgba(165, 204, 191, 0.3);
+    box-shadow: 0 5px 10px rgba(233, 42, 42, 0.3);
+    padding: 10%;
+    width: 15%;
+    height: 15%;
+    text-align: center;     
+}
+
+.feedback-emoji{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.heading{
+    margin: 5px;
+    font-size: 20px;
+}
+.feedback{
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+.feedback:hover{
+    background-color: skyblue;
+    border-radius: 10px;
+    box-shadow: rgba(10, 110, 120, .3);
+    color: brown;
+    transition: all 300ms ease;
+}
+
+button{
+    color: lightyellow;
+    background-color: seagreen;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+button:hover{
+    background-color: brown;
+    color: black;
+}

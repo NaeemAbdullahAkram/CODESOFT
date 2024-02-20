@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(233, 123, 213, .3);
+}
+
+/* Header Styles */
+header {
+    background-color: #849b45;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:hover {
+    background-color: rgb(96, 124, 214);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background: url('R.jpeg') no-repeat center center fixed;
+    opacity: 0.8;
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
+    /* background-size: cover; */
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #c57373;
+}
