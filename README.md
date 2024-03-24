@@ -1,2 +1,2 @@
-# CODESOFT
-Internship Tasks
+# Short Projects
+There are multiple short projects
